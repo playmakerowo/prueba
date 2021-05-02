@@ -24,4 +24,11 @@ footer .contenedor {
     .titulo {
         display: none;
     }
+    footer .contenedor {
+        display: grid;
+        background: cadetblue;
+        color: honeydew;
+        height: 500px;
+        font-size: 20px;
+    }
 }

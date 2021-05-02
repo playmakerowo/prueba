@@ -173,7 +173,7 @@ input {
     background-color: rgba(51, 51, 51, 0.829);
 }
 
-@media (min-width:900px) {
+@media (min-width:700px) {
     #mapa .contenedor {
         display: flex;
         justify-content: center;
@@ -181,7 +181,7 @@ input {
     }
     #mapa .contenedor iframe {
         background: rgb(53, 41, 41);
-        width: 1000px;
+        width: 100%;
         height: 400PX;
         margin: auto;
         max-width: 400px;
