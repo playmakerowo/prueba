@@ -1,0 +1,196 @@
+* {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #333;
+    color: cornsilk;
+    position: fixed;
+    z-index: 100;
+    /*encima de los demas objetos siosi */
+}
+
+body {
+    background: color grey;
+}
+
+p {
+    font-family: 'Times New Roman';
+}
+
+a {
+    font-family: 'Times New Roman';
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Times New Roman';
+    float: left;
+}
+
+h2 {
+    font-family: 'Times New Roman';
+}
+
+h3 {
+    font-family: 'Times New Roman';
+}
+
+.contenedor {
+    background: color grey;
+    width: 100%;
+    margin: auto;
+}
+
+footer .contenedor {
+    display: grid;
+    background: cadetblue;
+    color: honeydew;
+    height: 155px;
+    font-size: 20px;
+}
+
+#mapa {
+    background: rgba(255, 255, 255, 0.986);
+    color: rgb(0, 0, 0);
+    font-family: Arial;
+    text-align: center;
+}
+
+#mapa .contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#mapa .contenedor iframe {
+    background: rgb(53, 41, 41);
+    width: 360px;
+    height: 360PX;
+    margin: auto;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+
+/* FORMULARIO */
+
+.form-titulo {
+    background: rgba(15, 11, 6, 0.767);
+    font-family: 'Times New Roman';
+    padding: 20px;
+    text-align: center;
+    color: rgb(243, 243, 243);
+    border-bottom: solid 5px rgb(88, 81, 81);
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 35px;
+}
+
+.form-contacto {
+    background: rgb(53, 41, 41);
+    width: 90%;
+    height: 400PX;
+    margin: auto;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.contenedor-input {
+    padding: 10px;
+    display: flexbox;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+input {
+    padding: 3px;
+    margin-bottom: 7px;
+}
+
+
+/*columnas tipo butstrap*/
+
+.col-sm {
+    background-color: rgba(235, 235, 235, 0.774);
+    width: 49.2%;
+}
+
+.col-xl {
+    background-color: rgba(235, 235, 235, 0.774);
+    width: 99.6%;
+}
+
+.col-ms {
+    background-color: rgba(158, 167, 168, 0.774);
+    width: 99.6%;
+    height: 170px;
+}
+
+.col-content {
+    background-color: rgba(235, 235, 235, 0.774);
+    width: 99%;
+    height: 170px;
+}
+
+.btn-contacto {
+    background-color: rgba(235, 235, 235, 0.774);
+    color: rgb(0, 0, 0);
+    margin: auto;
+    border-radius: 5px;
+}
+
+
+/*texto*/
+
+#titulo {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.titulo {
+    background-color: rgb(0, 0, 0);
+}
+
+.texto {
+    background-color: #333;
+    color: white;
+    display: grid;
+}
+
+
+/*BANNER*/
+
+#banner h2 {
+    color: rgb(255, 255, 255);
+    background-color: rgba(51, 51, 51, 0.829);
+}
+
+@media (min-width:900px) {
+    #mapa .contenedor {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    #mapa .contenedor iframe {
+        background: rgb(53, 41, 41);
+        width: 1000px;
+        height: 400PX;
+        margin: auto;
+        max-width: 400px;
+        border-radius: 10px;
+    }
+    .mapa {
+        background: rgba(255, 255, 255, 0.986);
+        color: rgb(0, 0, 0);
+        font-family: Arial;
+        text-align: center;
+    }
+}
