@@ -1,4 +1,4 @@
-#formulario{
+#formulario {
     background: #333;
     padding: 40px;
 }
@@ -16,8 +16,6 @@
     font-size: 35px;
 }
 
-
-
 .form-registro {
     background: rgb(53, 41, 41);
     width: 95%;
@@ -26,14 +24,13 @@
     border-radius: 10px;
 }
 
-
-.contenedor-input{
+.contenedor-input {
     padding: 10px 20px;
-    display:table;
+    display: table;
     flex-wrap: wrap;
     justify-content: space-between;
     font-size: 25px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman';
 }
 
 input {
@@ -41,11 +38,11 @@ input {
     margin-bottom: 7px;
 }
 
-
-.col-sm{
+.col-sm {
     width: 50%;
 }
-.col-xl{
+
+.col-xl {
     width: 100%;
 }
 
@@ -54,8 +51,6 @@ input {
     color: rgb(0, 0, 0);
     margin: auto;
     border-radius: 5px;
-
-    
 }
 
 footer .contenedor {
@@ -106,6 +101,4 @@ footer .contenedor {
         justify-content: center;
         width: 98%;
     }
-
 }
-
