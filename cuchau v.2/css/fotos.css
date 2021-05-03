@@ -1,0 +1,21 @@
+#fotos {
+    background: #333;
+    margin-top: 45px;
+}
+
+#fotos .contenedor img {
+    width: 180px;
+    height: 180px;
+    border: solid 6px rgb(54, 117, 153);
+    border-radius: 10%;
+}
+
+#fotos .contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#fotos .contenedor article {
+    margin: 30px;
+}
