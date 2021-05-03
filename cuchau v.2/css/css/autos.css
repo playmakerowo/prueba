@@ -1,0 +1,106 @@
+.auto {
+    width: 40%;
+    border-radius: 20px 0px 0px 20px;
+    min-width: 300px;
+}
+
+.tabla {
+    padding-top: 15px;
+    padding-left: 15px;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.texto {
+    padding: 15px;
+    border: solid 5px rgb(71, 69, 69);
+    border-radius: 0px 20px 20px 0px;
+    width: 55%;
+    min-width: 400px;
+    background-color: rgba(196, 193, 193, 0.329);
+}
+
+.texto h1 {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.auto1 {
+    padding-top: 15px;
+    padding-left: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#carouselExampleIndicators {
+    padding-top: 25px;
+    padding-left: 15px;
+    display: flex;
+    justify-content: center;
+    width: 75%;
+}
+
+footer .contenedor {
+    display: grid;
+    background: cadetblue;
+    color: honeydew;
+    height: 200px;
+    font-size: 20px;
+}
+
+#carouselExampleIndicators img {
+    border-radius: 20px 20px 20px 20px;
+}
+
+@media (max-width:710px) {
+    .auto {
+        width: 40%;
+        border-radius: 20px 20px 0px 0px;
+        min-width: 100%;
+        min-height: 280px;
+    }
+    .tabla {
+        padding-top: 15px;
+        padding-left: 15px;
+        display: flex;
+        justify-content: left;
+        flex-wrap: wrap;
+        width: 98%;
+    }
+    .texto {
+        padding: 15px;
+        border: solid 5px rgb(71, 69, 69);
+        border-radius: 0px 0px 20px 20px;
+        width: 40%;
+        min-width: 100%;
+        min-height: 400px;
+        background-color: rgba(196, 193, 193, 0.329);
+    }
+    .auto1 {
+        padding-top: 15px;
+        padding-left: 15px;
+        display: flex;
+        justify-content: left;
+        flex-wrap: wrap;
+        width: 98%;
+        border-radius: 40px 40px 40px 40px;
+    }
+    #carouselExampleIndicators {
+        padding-top: 25px;
+        padding-left: 15px;
+        display: flex;
+        justify-content: center;
+        width: 98%;
+    }
+    footer .contenedor {
+        display: grid;
+        background: cadetblue;
+        color: honeydew;
+        height: 155px;
+        font-size: 20px;
+    }
+}
