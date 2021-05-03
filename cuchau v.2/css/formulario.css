@@ -1,0 +1,109 @@
+#bienvenida h2 {
+    justify-content: center;
+    text-align: center;
+}
+
+#formulario {
+    background: #333;
+    padding: 40px;
+}
+
+.form-titulo {
+    background: rgba(15, 11, 6, 0.767);
+    font-family: 'Times New Roman';
+    padding: 20px;
+    text-align: center;
+    color: rgb(243, 243, 243);
+    border-bottom: solid 5px rgb(88, 81, 81);
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 35px;
+}
+
+.form-registro {
+    background: rgb(53, 41, 41);
+    width: 95%;
+    margin: auto;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.contenedor-input {
+    padding: 10px 20px;
+    display: table;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 25px;
+    font-family: 'Times New Roman';
+}
+
+input {
+    padding: 3px;
+    margin-bottom: 7px;
+}
+
+.col-sm {
+    width: 50%;
+}
+
+.col-xl {
+    width: 100%;
+}
+
+.btn-registro {
+    background-color: rgba(235, 235, 235, 0.774);
+    color: rgb(0, 0, 0);
+    margin: auto;
+    border-radius: 5px;
+}
+
+footer .contenedor {
+    display: grid;
+    background: cadetblue;
+    color: honeydew;
+    height: 155px;
+    font-size: 20px;
+}
+
+@media (max-width:710px) {
+    .auto {
+        width: 40%;
+        border-radius: 20px 20px 0px 0px;
+        min-width: 100%;
+        min-height: 280px;
+    }
+    .tabla {
+        padding-top: 15px;
+        padding-left: 15px;
+        display: flex;
+        justify-content: left;
+        flex-wrap: wrap;
+        width: 98%;
+    }
+    .texto {
+        padding: 15px;
+        border: solid 5px rgb(71, 69, 69);
+        border-radius: 0px 0px 20px 20px;
+        width: 40%;
+        min-width: 100%;
+        min-height: 400px;
+        background-color: rgba(196, 193, 193, 0.329);
+    }
+    .auto1 {
+        padding-top: 15px;
+        padding-left: 15px;
+        display: flex;
+        justify-content: left;
+        flex-wrap: wrap;
+        width: 98%;
+        border-radius: 40px 40px 40px 40px;
+    }
+    #carouselExampleIndicators {
+        padding-top: 25px;
+        padding-left: 15px;
+        display: flex;
+        justify-content: center;
+        width: 98%;
+    }
+}
