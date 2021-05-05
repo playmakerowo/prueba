@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MECANICO</title>
+    <link rel="stylesheet" href="css/mapa.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+
+<body>
+    <!--BARRA DE NAVEGACION-->
+    <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <a href="index.html"><img src="img/imagen1.png" alt="" width="50" height="50" class="d-inline-block align-text-top"> </a>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">TALLER</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="mecanico.html">PERFIL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="solicitudes.html">SOLICITUDES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="albunmec.html">TRABAJOS</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="atencion.html">ATENCION</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!--CARRUSEL DE IMAGENES-->
+    <section id="banner">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/2.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <a class="navbar-brand" href="albun.html">
+                            <h2>ULTIMOS TRABAJOS </h2>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/1.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <a class="navbar-brand" href="albun.html">
+                            <h2>ULTIMOS TRABAJOS </h2>
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/3.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <a class="navbar-brand" href="albun.html">
+                            <h2>ULTIMOS TRABAJOS </h2>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <!--SECCION-->
+    <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto">
+                <h1 class="fw-light">PERFIL MECANICO</h1>
+            </div>
+        </div>
+    </section>
+    <!--GALERIA-->
+    <!--FORMULARIO-->
+    <div class="container">
+        <!--FOTO-->
+        <div class="row">
+            <div class="col-5">
+                <img src="img/imagen11.jpg" width="100%" height="350">
+            </div>
+            <!--CARACTERISTICAS-->
+            <div class="col-7">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">NOMBRE: VIN DIESEL</li>
+                    <li class="list-group-item">ESPECIALIDAD: AUTOS</li>
+                    <li class="list-group-item">NUMEROS DE TRABAJOS REALIADOS: 20</li>
+                </ul>
+            </div>
+            <!--TRABAJOS REALIZADOS-->
+        </div>
+        <div class="row">
+            <!--TITULO TRABAJOS REALIZADOS-->
+            <section class="py-5 text-center container">
+                <div class="row py-lg-5">
+                    <div class="col-lg-6 col-md-8 mx-auto">
+                        <h3 class="fw-light">TRABAJOS REALIZADOS</h3>
+                    </div>
+                </div>
+            </section>
+            <!--IMAGENES -->
+            <div class="album py-5 bg-light">
+                <div class="container">
+
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                        <div class="col">
+                            <!--FOTO1-->
+                            <div class="card shadow-sm">
+                                <img src="img/galeria/1.png" alt="">
+
+                                <div class="card-body">
+                                    <p class="card-text">marca: Chevrolet <br>modelo: Camaro <br> Anio: 2020 <br> mecanico: cy </p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary"> <a class="a" href="auto1.html">View</a> </button>
+
+                                        </div>
+                                        <small class="text-muted">9 mins</small>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="col">
+                            <!--FOTO2-->
+                            <div class="card shadow-sm">
+                                <img src="img/galeria/2.jpg" alt="">
+                                <div class="card-body">
+                                    <p class="card-text">marca: Lottus <br>modelo: Elise <br> Anio: 2020 <br> mecanico: cy </p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary"><a class="a" href="auto2.html">View</a></button>
+
+                                        </div>
+                                        <small class="text-muted">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <!--FOTO3-->
+                            <div class="card shadow-sm">
+                                <img src="img/galeria/3.png" alt="">
+                                <div class="card-body">
+                                    <p class="card-text">marca: Chevrolet <br> modelo: Camaro <br> Anio: 2020 <br> mecanico: cy </p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary"><a class="a" href="auto3.html">View</a></button>
+
+                                        </div>
+                                        <small class="text-muted">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <!--FOTO4-->
+                            <div class="card shadow-sm">
+                                <img src="img/galeria/4.png" alt="">
+                                <div class="card-body">
+                                    <p class="card-text">marca: Ferrari <br> modelo: Ferrari <br> Anio: 2020 <br> mecanico: cy </p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary"><a class="a" href="auto4.html">View</a></button>
+
+                                        </div>
+                                        <small class="text-muted">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <!--FOTO5-->
+                            <div class="card shadow-sm">
+                                <img src="img/galeria/5.png" alt="">
+                                <div class="card-body">
+                                    <p class="card-text">marca: BMW <br> modelo: M3 GTR <br> Anio: 2020 <br> mecanico: cy </p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary"><a href="auto5.html" class="a">View</a></button>
+
+                                        </div>
+                                        <small class="text-muted">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <!--FOTO6-->
+                            <div class="card shadow-sm">
+                                <img src="img/galeria/6.png" alt="">
+                                <div class="card-body">
+                                    <p class="card-text">marca: Ford <br> modelo: Fiesta <br> Anio: 2020 <br> mecanico: cy </p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary"><a href="auto6.html" class="a">View</a></button>
+
+                                        </div>
+                                        <small class="text-muted">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="contenedor">
+            <div class="container">
+                <p class="float-end mb-1">
+                    <a href="#">Back to top</a>
+                </p>
+                <p class="mb-1">Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
+                <p class="mb-0">New to Bootstrap? <a href="/">Visit the homepage</a> or read our <a href="../getting-started/introduction/">getting started guide</a>.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

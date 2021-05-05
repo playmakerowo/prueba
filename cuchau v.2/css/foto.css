@@ -1,0 +1,8 @@
+@media (max-width: 720px) {
+    #foto {
+        display: none;
+    }
+    .foto {
+        display: none;
+    }
+}

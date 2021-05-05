@@ -16,16 +16,22 @@
 
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
+              <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <a class="navbar-brand" href="#">TALLER</a>
+                <li>
+                    <a class="navbar-brand" href="#">
+                        <a href="index.html"><img src="img/imagen1.png" alt="" width="50" height="50" class="d-inline-block align-text-top"> </a>
+                    </a>
+                </li>
+                <li> <a class="navbar-brand" href="index.html">TALLER</a></li>
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="albun.html">GALERIA</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">MECANICOS</a>
+                        <a class="nav-link" href="mecanico.html">MECANICOS</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="formulario.html">LOGIN</a>
@@ -114,14 +120,14 @@
 
             <section id="formulario">
 
-                <form action="" class="form-contacto">
+                <form action="" class="form-contacto" onsubmit="return validar()">
                     <h2 class="form-titulo">Contacto</h2>
                     <div class="contenedor-input">
-                        <input class="col-sm" type="text" name="txtNombre" id="" placeholder="Nombre">
-                        <input class="col-sm" type="text" name="txtTelefono" id="" placeholder="Telefono">
-                        <input class="col-xl" type="text" name="txtcorreo" id="" placeholder="correo">
-                        <textarea class="col-content" type="text" name="txtContenido" id="" placeholder="contenido"> </textarea>
-                        <input class="btn-contacto" type="button" value="enviar" onclick="mensaje()">
+                        <input class="col-sm" type="text" name="txtNombre" id="" placeholder="Nombre" required minlength="4" maxlength="10">
+                        <input class="col-sm" type="tel" name="txtFono" id="" placeholder="Telefono" required minlength="9" maxlength="9">
+                        <input class="col-xl" type="email" name="txtEmail" id="" placeholder="correo" required>
+                        <textarea class="col-content" type="text" name="txtContenido" id="" placeholder="contenido" required minlength="20"> </textarea>
+                        <input class="btn-registro" type="submit" value="enviar" onclick="mensaje()">
                     </div>
                 </form>
 
@@ -142,11 +148,8 @@
     </footer>
 
     </div>
-    <Script>
-        function mensaje() {
-            alert('mensaje');
-        }
-    </Script>
+
+    <script src="js/scriptsindex.js"></script>
 
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>

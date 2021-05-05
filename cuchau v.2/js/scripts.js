@@ -1,5 +1,3 @@
-
-
 function validar() {
     var resp = validaRut();
     if (resp == false) {
@@ -11,6 +9,7 @@ function validar() {
     }
     return true;
 }
+
 
 function validaFecha() {
     var fechaUsuario = document.getElementById('txtFechaNaci').value;
@@ -32,7 +31,7 @@ function validaFecha() {
         alert('Fecha incorrecta');
         return false;
     }
-    var unDia = 24 * 60 * 60 * 1000//un dia en milisegundos
+    var unDia = 24 * 60 * 60 * 1000 //un dia en milisegundos
     var diferencia = Math.trunc((fechaSistema.getTime() - fechaNuevaUsuario.getTime()) / unDia);
     console.log('Dias: ' + diferencia);
     var anios = Math.trunc(diferencia / 365);
